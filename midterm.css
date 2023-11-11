@@ -1,10 +1,14 @@
-body {
+.title {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.container {
+.title {
+    text-align: center;
+}
+
+.info {
     width: 80%;
     margin: 20px auto;
     border: 2px solid #333;
@@ -12,30 +16,42 @@ body {
     padding: 20px;
 }
 
-.header {
-    text-align: center;
+.info {
+    text-align: left;
 }
 
-.section {
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 15px;
+.edu {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
 }
 
-.section h2 {
-    margin-top: 0;
+.edu {
+    text-align: left;
 }
 
-.section p {
-    margin: 5px 0;
+.exp {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
 }
 
-.skills ul {
-    list-style: none;
-    padding: 0;
+.exp {
+    text-align: left;
 }
 
-.skills li {
-    margin-bottom: 5px;
+.skills {
+    width: 80%;
+    margin: 20px auto;
+    border: 2px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.skills {
+    text-align: left;
 }
