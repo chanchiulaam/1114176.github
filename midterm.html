@@ -4,63 +4,149 @@
     <meta charset="UTF-8">
     <title>Resume</title>
     <link rel="stylesheet" href="midterm.css">
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <div class="title">
         <div class="header">
-            <h1>陳朝嵐</h1>
-            <p>個人履歷</p>
+            <h1>歡迎來到我的個人履歷</h1>
+            <h2>My website</h2>
+            <h2>Chan Chiu Laam</h2>      
         </div>
 
-        <div class="info">
-            <h2>基本資料</h2>
-            <p>Email: psaz520@gmail.com </p>
-            <p>電話:0958218994 </p>
-            <p>地址:新竹市廷平路 </p>
+        <nav>
+            <p>Click here to</p>
+            <a href="#page1">about me</a>
+            <a href="#page2">education</a>
+            <a href="#page3">experience</a>
+            <a href="#page4">skill</a>
+            <a href="#page1">contact</a>
+        </nav>
+
+        <div class="info" id="page1">
+            <img class="picture1" src="midterm img.jpeg">
+            <h1 class="slogan">'Strive not to be a success, but rather to be of value.'</h1>
+                 <h1 class="slogan">ALBERT EINSTEIN</h1>
+            <h2>關於我</h2>
+            <p>我叫陳朝嵐，我是來自香港在台灣讀書的香港人，出生於1999年6月15日。</p>
+            <p>目前就讀中原大學資管系二年級，</p>
+            <p>我是一個對學習新知識充滿興趣的人，在國中高中的時候會經常參加不同的社團活動，高中時也參加過學生會的競選，但不幸落敗。我很喜歡與不同的人交流，因為我覺得從跟別人聊天的過程中可以讓自己學到不同的東西，例如:吸收別人的優點，正視自己的不足。</p>
         </div>
 
-        <div class="edu">
+        <div class="edu" id="page2">
             <h2>學習經歷</h2>
+            <img class="grad1" src="gradgp.jpg">
+            <img class="grad1" src="gradps.jpg">
+            <p>(2013-2019)</p>
             <p>國中:佛教沈香林紀念中學</p>
             <p>高中:佛教沈香林紀念中學</p>
+            <img class="ntnugrad" src="2022grad.jpeg">
+            <p>(2021-2022)</p>
+            <p>國立師範大學僑生先修部</p>
+            <img class="cycuimg" src="中原大學.jpg">
+            <p>(2022-2025)</p>
             <p>大學:中原大學 資管系</p>
         </div>
 
-        <div class="exp">
+        <div class="exp" id="page3">
             <h2>經驗</h2>
-            <p></p>
-            <p></p>
+            <img class="donkiimg" src="donki.jpg">
+            <p>2020-2021</p>
+            <p>香港DON DON DONKI</p>
+            <p>我在2020年－2021年間在香港的Donki 打工，由於公司位於香港的鬧區，經常會有不同國籍的人到這邊，所以這工作讓我可以與不同外籍人士聊天，從而讓我的溝通能力有所進步，我也很樂意與不同國家的人溝通</p>
+            <img class="airport" src="leave.jpg">
+            <p>(2021年離開香港，準備前往台灣讀書)</p>
+            <p>這天是我在香港機場跟家人朋友道別，因為疫情的關系，會有一段長的時間沒辦法回香港，所以會比較不捨</p>
+
         </div>
 
-        <div class="skills">
-            <h2>專業技能</h2>
-            <div class="box">
-                <h3>HTML</h3>
-                <div class="percent">
-                <div style="width: 60%"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h3>CSS</h3>
-                <div class="percent">
-                <div style="width: 40%"></div>
-                </div>
-            </div>
-            <div class="box">
-                <h3>JAVA</h3>
-                <div class="percent">
-                <div style="width: 80%"></div>    
-                </div>
-            </div>
-            <div class="box">
-                <h3>PYTHON</h3>
-                <div class="percent">
-                 <div style="width: 90%"></div>    
-                </div>
-            </div>
-            </ul>
+        <div class="skills1" id="page4">
+            <h2 class="skilltit">程式能力</h2>
+             <ul>
+                 <li>
+                  <h3>HTML       60%</h3>
+                  <div class="percent">
+                       <div class="progress html-progress"></div>
+                  </div>
+                 </li>
+                <li>
+                  <h3>CSS       40%</h3>
+                  <div class="percent">
+                       <div class="progress css-progress"></div>
+                  </div>
+                </li>
+                <li>
+                   <h3>JAVA       70%</h3>
+                   <div class="percent">
+                         <div class="progress JAVA-progress"></div>
+                   </div>
+                </li>
+                <li>
+                    <h3>PYTHON      90%</h3>
+                    <div class="percent">
+                         <div class="progress python-progress"></div>
+                   </div>
+                </li>
         </div>
-    </div>
+
+        <div class="skills2">
+            <h2 class="skilltit">個人能力</h2>
+             <ul>
+                 <li>
+                  <h3>解難能力 60%</h3>
+                  <div class="percent"> 
+                       <div class="progress problem-progress"></div>
+                  </div>
+                 </li>
+                <li>
+                  <h3>溝通能力      80%</h3>
+                  <div class="percent">
+                       <div class="progress commu-progress"></div>
+                  </div>
+                </li>
+                <li>
+                   <h3>學習能力       70%</h3>
+                   <div class="percent">
+                         <div class="progress study-progress"></div>
+                   </div>
+                </li>
+                <li>
+                    <h3>團隊合作      100%</h3>
+                    <div class="percent">
+                         <div class="progress grp-progress"></div>
+                   </div>
+                </li>
+        </div>
+
+
+    <div class="contact" id="page5">
+        <h3>聯絡方式</h3>
+         <ul>
+            <li>
+             <i class="phone"></i>
+                <img class="phonelogo" src="phone.png">
+                0958218994
+             </li>
+            <li>
+            <i class="email"></i>
+                <img class="emaillogo" src="email.png">
+                psaz520@gmail.com
+            </li>
+            <li>
+            <a href="https://line.me/ti/p/iQhWMB39kz" target="_blank">
+                    <img class="line" src="LINE_logo.svg.png" alt="Description of the image" >
+                </a>
+            </li>  
+            <li>  
+            <a href="https://www.instagram.com/_laaaaaaam/" target="_blank">
+                    <img class="ig" src="instagram-1581266_960_720.webp" alt="Description of the image" >
+                </a>
+            </li>
+        </ul>
+     </div>
+
 </body>
 </html>
