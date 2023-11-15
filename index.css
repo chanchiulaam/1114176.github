@@ -22,6 +22,8 @@ nav {
     background-color: #CCD5AE;
     font-family: 'Barlow Condensed', sans-serif;
     text-align: center;
+    border: 2px solid white;
+    border-radius: 20px;
 }
 
 nav a {
@@ -29,7 +31,7 @@ nav a {
     display: inline-block;
     font-size: 40px;
     color: black;
-    padding: 15px 15px;
+    padding: 25px 25px;
 }
 
 nav a:hover {
@@ -37,7 +39,7 @@ nav a:hover {
     color: orange;
 }
 
-.slogan1{
+.slogan1 {
     font-family: 'agbalumo';
     color: black;
 }
@@ -219,23 +221,27 @@ nav a:hover {
     width: 100%;
 }
 
+.href {
+    width: 10px;
+    margin: 10px;
+}
 
-.contact {
+.contact1 {
     padding: 20px 20px;
 }
 
-.contact {
+.contact1 {
+    background-image: url(jpg/grass.jpg);
     list-style: none;
     color: white;
-    padding: 30px ;
+    padding: 30px;
     display: flex;
     flex-direction: column;
-    background: black;
     text-align: center;
-    cursor: pointer;
+
 }
 
-.contact ul {
+.contact1 ul {
     display: flex;
     margin-top: 20px;
     gap: 10px;
@@ -243,7 +249,7 @@ nav a:hover {
     padding: 4% 10%;
 }
 
-.contact ul li i {
+.contact1 ul li i {
     font-size: 2em;
 }
 
