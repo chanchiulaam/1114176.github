@@ -1,5 +1,5 @@
 body {
-    background-image: url(forest.jpg);
+    background-image: url(jpg/forest.jpg);
     background-position: center;
     background-repeat: inherit;
 }
@@ -9,7 +9,7 @@ body {
     margin: 0;
     border: 0;
     padding: 4%;
-    background-image: url(sunset.jpg);
+    background-image: url(jpg/sunset.jpg);
     background-position: center;
     color: antiquewhite;
 }
